@@ -1,0 +1,13 @@
+included:
+  - OpenWallet
+  - OpenWalletTests
+
+opt_in_rules:
+  - unused_import # All imported modules should be required to make the file compile.
+  - switch_case_on_newline # Cases inside a switch should always be on a newline.
+  - file_name_no_space # File name should not contain any whitespace.
+
+disabled_rules:
+  - identifier_name # We might not want to enable this rule since some property name from Server API return JSON object could violate this rule.
+  - trailing_whitespace
+  - line_length

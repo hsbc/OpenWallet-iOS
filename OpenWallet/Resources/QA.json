@@ -1,0 +1,39 @@
+[
+  {
+    "question": "Why do we need to install a new OpenWallet app? ",
+    "answer": "It's good",
+    "qaid": 1,
+    "catogory": "Set up"
+  },
+  {
+    "question": "What does this app do?",
+    "qaid": 2,
+    "answer": "To become a rich man",
+    "catogory": "Set up"
+  },
+  {
+    "question": "Are they new products to be added? ",
+    "answer": "Of couse",
+    "qaid": 292,
+    "catogory": "Set up"
+  },
+  {
+    "question": "Why is the NFT non-tradable? ",
+    "answer": "This is the answer",
+    "qaid": 356,
+    "catogory": "1865 NFT"
+  },
+  {
+    "question": "How is the weather?",
+    "answer": "I think that's great",
+    "qaid": 359,
+    "catogory": "1865 NFT"
+  },
+  {
+    "question": "What is the campaign about? ",
+    "answer": "All of the world",
+    "qaid": 422,
+    "catogory": "Campaign Rules"
+  }
+]
+

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Carbon offset projects",
+        "isComingSoon": true,
+        "items": [
+            {
+                "id":1,
+                "imageName": "project_1",
+                "itemName": "A geothermal plant in Iceland"
+            },
+            {
+                "id":2,
+                "imageName": "project_2",
+                "itemName": "A hydro plant in Sichuan"
+            },
+            {
+                "id":3,
+                "imageName": "project_3",
+                "itemName": "A forest project in Botswana"
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 1,
+        "title": "Hot new items",
+        "isComingSoon": true,
+        "items": [
+            {
+                "id":1,
+                "imageName": "item_watch",
+                "itemName": "Royal Oak Minute Repeater ..."
+            },
+            {
+                "id":2,
+                "imageName": "item_AmericanGold",
+                "itemName": "2020 1/4 oz American Gold… "
+            },
+            {
+                "id":3,
+                "imageName": "item_Rolex",
+                "itemName": "Cleaning Energy Project#475"
+            },
+            {
+                "id":4,
+                "imageName": "item_FineGold",
+                "itemName": "2.5g .999 fine Gold ..."
+            }
+
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Highest sale",
+        "isComingSoon": false,
+        "items": [
+            {
+                "id":5,
+                "imageName": "item_Rolex",
+                "itemName": "Oyster Perpetual Datejust 36 #479"
+            },
+            {
+                "id":6,
+                "imageName": "item_gold_brick",
+                "itemName": "10g .999 fine Gold PAMP Bullion..."
+            },
+            {
+                "id":7,
+                "imageName": "item_gold_brick",
+                "itemName": "Ruby  #18"
+            },
+            {
+                "id":8,
+                "imageName": "item_gold_brick",
+                "itemName": "Gold brick #476"
+            }
+
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+//
+//  release.xcconfig
+//  OpenWallet
+//
+//  Created by WEIHAO ZHANG on 7/19/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// App settings
+OW_APP_NAME = Open Wallet
+OW_APP_DISPLAY_NAME = Open Wallet
+OW_APP_BUNDLE_ID = com.open.wallet
+OW_HIDE_COVER_SCREEN = YES
+
+// Network security
+OW_ENABLE_SSL_PINNING = YES
+
+// Build settings
+CODE_SIGNING_ALLOWED = YES
+
+// Server certificates
+OW_SERVER_CERTIFICATE_FILE_NAME = **** YOUR CERTIFICATE FILE NAME HERE ****
+OW_SERVER_CERTIFICATE_FILE_EXTENSION = cer
+
+// Middle layer base url
+OW_SERVER_HOST = **** Server Host ****
+OW_MIDDLE_LAYER_BASE_URL = https:/$()/$(OW_SERVER_HOST)
+
+// Server gateway configs
+INCLUDE_SERVER_GATEWAY_ACCESS_COOKIE = YES
+OW_SERVER_GATEWAY_ACCESS_COOKIE_NAME = 0
+OW_SERVER_GATEWAY_ACCESS_COOKIE_VALUE = True
+
+// Http header for Middle layer
+INCLUDE_SOURCE_HEADER_IN_HTTP_CALLS = YES
+SOURCE_DEVICE_HTTP_HEADER_NAME = Source
+
+// Self-host IPFS gateway domain
+OW_IPFS_GATEWAY_DOMAIN_URL = $(OW_MIDDLE_LAYER_BASE_URL)/ipfs
+
+// IPFS settings
+IPFS_TOKEN_URI_PREFIX = ipfs:/$()/

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "subject": "What is blockchain?",
+        "description": "Blockchain is a distributed digital ledger that continuously adds data in chronological order,this makes it difficult to change, hack or cheat the system.",
+        "imageLinks": ["blockchain_learn_list_banner"],
+        "participationStatus": ""
+    },
+    {
+        "id": 2,
+        "subject": "What is cryptocurrency?",
+        "description": "Cryptocurrency is decentralized digital money that is used on the internet and operates through distributed ledger technology, known as a blockchain.",
+        "imageLinks": "cryptocurrency_learn_list_banner",
+        "participationStatus": ""
+    },
+    {
+        "id": 3,
+        "subject": "What is NFT?",
+        "description": "NFTs are individual tokens that exist on the blockchain with valuable information stored in them that cannot be replicated. They can represent real-world items like artwork and by tokenizing these real-world tangible assets - it makes buying, selling, and trading them more efficient while reducing the probability of fraud.",
+        "imageLinks": "nft_learn_list_banner",
+        "participationStatus": ""
+    }
+
+]

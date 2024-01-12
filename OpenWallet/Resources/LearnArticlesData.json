@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "title": "What are NFTs?",
+        "subTitle": "Discover the world of NFTs with OpenWallet.",
+        "bannerImageLink": "learn-banner3",
+        "headerImageLink": "Learn3-img1",
+        "subjects": [
+            {
+                "id": 10,
+                "imageLinks": [],
+                "subTitle": "Deciphering Non-Fungible Tokens?",
+                "paragraphs":[]
+            },
+            {
+                "id": 11,
+                "imageLinks": [],
+                "subTitle": "What are NFTs?",
+                "paragraphs":[
+                    {
+                        "id": 111,
+                        "paragraphTitle": "",
+                        "content": "NFTs – or Non-fungible Tokens – are unique digital assets stored on the blockchain. They are designed to be unique and cannot be exchanged for an equivalent, unlike other digital currencies and assets like Bitcoin or Central Bank Digital Currencies.",
+                        "imageLinks": ["Learn1-img2"]
+                    },
+                    {
+                        "id": 112,
+                        "paragraphTitle": "",
+                        "content": "The NFTs can be used to represent distinct goods, such as a land title deed or a particular piece of artwork.  They can be digital proof of ownership or authenticity and can even provide transferability when a physical good/serivce is not as easily transferable. ",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 113,
+                        "paragraphTitle": "",
+                        "content": "In relation to OpenWallet Open App and the associated Campaign; the NFT does not represent ownership of any good or service and is non-tradable, meaning you will not be able to use or sell it on any exchange. ",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 114,
+                        "paragraphTitle": "",
+                        "content": "However, you will learn more about NFTs and Web 3.0 and will play a crucial role in OpenWallet’s  creation of an NFT while you redeem your physical Gold Gift. ",
+                        "imageLinks": []
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "imageLinks": ["Learn1-img3"],
+                "subTitle": "Why are NFTs so Interesting?",
+                "paragraphs":[
+                    {
+                        "id": 121,
+                        "paragraphTitle": "",
+                        "content": "NFTs are exciting because they give real assets brand-new attributes that didn't previously exist. For example, tokenising less liquid, real-world assets like artwork, jewelery, real estate, or even private equity, may add more liquidity to those assets.",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 122,
+                        "paragraphTitle": "",
+                        "content": "Tradeable NFTs on exchanges also allow more people to transact in a market. Since records can be included into the smart contract on the blockchain, it overcomes issues like separately proving ownership or authenticity. For instance, an NFT that represents a real-world piece of art or jewellery can store information on the asset's origin and ownership history.",
+                        "imageLinks": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Why you should be excited about Gold X NFT?",
+        "subTitle": "Discover Gold X NFT Campaign with OpenWallet.",
+        "bannerImageLink": "learn-banner1",
+        "headerImageLink": "Learn1-img1",
+        "subjects": [
+            {
+                "id": 21,
+                "imageLinks": [],
+                "subTitle": "Excited about NFTs? ",
+                "paragraphs":[
+                    {
+                        "id": 211,
+                        "paragraphTitle": "",
+                        "content": "We are extremely excited about your registration and your interest in the Web 3.0 world. As a first step into the world of digital assets, blockchain, and Web 3.0, we are launching Gold X NFT.  Along with your learnings about  NFTs, we hope you enjoy using our OpenWallet Open app, too. We have implemented some new technologies that are being used in the background, such as a digital wallet to store NFTs and an in-house process to create (or \"mint\") these NFTs. ",
+                        "imageLinks": ["Learn3-img2"]
+                    },
+                    {
+                        "id": 212,
+                        "paragraphTitle": "",
+                        "content": "So why be excited? You'll notice several intriguing features if you examine OpenWallet Open closely.  When you request redemption of your dedicated gift, you will also initiate the creation of the NFT for OpenWallet. The NFT will land in the wallet to be stored and marked redeemed, as per the smart contract instruction. ",
+                        "imageLinks": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "What is Web 3.0",
+        "subTitle": "Discover the next generation of the internet with OpenWallet.",
+        "bannerImageLink": "learn-banner2",
+        "headerImageLink": "Learn2-img1",
+        "subjects": [
+            {
+                "id": 30,
+                "imageLinks": [],
+                "subTitle": "Know about the Web 3.0 revolution?",
+                "paragraphs":[]
+            },
+            {
+                "id": 31,
+                "imageLinks": [],
+                "subTitle": "What is Web 3.0?",
+                "paragraphs":[
+                    {
+                        "id": 311,
+                        "paragraphTitle": "",
+                        "content": "The Web is a common concept. But what is Web 3.0? Or even Web 1.0 and 2.0? ",
+                        "imageLinks": ["Learn2-img5"]
+                    },
+                    {
+                        "id": 312,
+                        "paragraphTitle": "",
+                        "content": "Web 1.0 dates back to the 1990s. It refers to  the first internet revolution which is mainly characterised by websites (anything starting with http://) that people still browse. The advent of Web 2.0 in the early 2000s focused on exclusive, centralised applications like social media (e.g., Facebook) or banking apps (e.g. OpenWallet).",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 313,
+                        "paragraphTitle": "",
+                        "content": "Web 3.0 emerged around 2020. Built on the technology called blockchain, it gained a lot of popularity because of Bitcoin. To understand this revolution, you need to understand the concept of a distributed ledger. ",
+                        "imageLinks": []
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "imageLinks": ["Learn2-img2"],
+                "subTitle": "What is the difference between Centralised and Distributed Ledgers?",
+                "paragraphs":[
+                    {
+                        "id": 321,
+                        "paragraphTitle": "",
+                        "content": "Today, if you want to make a purchase of a good or a service, you would enter a store (or go online ) and pay with a bank card. The shopkeeper would note your purchase and apply the transaction to your card. Your account would then be debited after your bank verifies the purchase. This is accomplished through a centralized ledger that records your transactions, and your bank is instrumental in validating them.",
+                        "imageLinks": ["Learn2-img3"]
+                    },
+                    {
+                        "id": 322,
+                        "paragraphTitle": "",
+                        "content": "Compare this to a distributed ledger like blockchain technology. With a distributed ledger system, you could pay the shopkeeper directly for what you bought, bypassing the requirement for a bank to function as an intermediary to verify purchases. The transparency and traceability of transactions on the blocktain allows immediate verification and validation, so intermediaries are no longer needed.",
+                        "imageLinks": []
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "imageLinks": [],
+                "subTitle": "What is Blockchain?",
+                "paragraphs":[
+                    {
+                        "id": 331,
+                        "paragraphTitle": "",
+                        "content": "Blockchain is a technology that maintains transaction records not just in one computer in a network, but across several. The word \"blockchain\" comes from the fact that each transaction is stored as a \"block\" and linked together to form a \"chain\". This indicates that the ledger is open to all participants, allowing them to view previous events including transactions.",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 332,
+                        "paragraphTitle": "",
+                        "content": "Participants in blockchain benefit from having access to precise and fast information about transactions. Theoretically, it is safer because it is far more difficult for malicious users to simultaneously hack multiple computers in one go. Furthermore, since the system is de-centralized, documented and not codified, transactions can happen more quickly.",
+                        "imageLinks": []
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "imageLinks": [],
+                "subTitle": "How can Blockchain technology be used? ",
+                "paragraphs":[
+                    {
+                        "id": 341,
+                        "paragraphTitle": "",
+                        "content": "Blockchain is built on transparency and traceability and this technology has three uses:",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 342,
+                        "paragraphTitle": "1.Payments",
+                        "content": "Blockchains are one option to deliver payments more efficiently and with fewer intermediaries. A major benefit can be found in cross-border payments as they can be done bilaterally and in theory (still not achieved) more quickly and cheaply than today’s methods (e.g., using correspondent banking relationships with conventional payment methods).  Through the use of digital wallets, crypto-tokens like Bitcoin and Ethereum also enable direct value transfers between individuals.",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 343,
+                        "paragraphTitle": "2.Digital Transaction Record",
+                        "content": "Blockchains can be used to hold non-fungible tokens (NFTs).  NFTs are essentially digital tokens that can represent real-world assets like jewelry and artwork.",
+                        "imageLinks": []
+                    },
+                    {
+                        "id": 344,
+                        "paragraphTitle": "3.Smart Contracts",
+                        "content": "Blockchain can incorporate smart contracts, that, for example, can hard-code a tokenised bond to pay interest payments to its holder. The full potential of smart contracts is still unexplored: they could one day record, document, and execute contracts or agreements without any trusted intermediary or arbitrator.",
+                        "imageLinks": []
+                    }
+                ]
+            }
+        ]
+    }
+]
+ 

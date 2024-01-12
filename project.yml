@@ -1,0 +1,78 @@
+name: OpenWallet
+
+options:
+  xcodeVersion: "13.4"
+  minimumXcodeGenVersion: "2.29.0"
+  bundleIdPrefix: "lab"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+  deploymentTarget:
+    iOS: "15.0"
+  defaultConfig: "Release"
+
+configs:
+  Debug: debug
+  Release: release
+
+configFiles:
+  Debug: config/debug.xcconfig
+  Release: config/release.xcconfig
+
+attributes:
+  BuildIndependentTargetsInParallel: 1
+  LastSwiftUpdateCheck: 1340
+
+# Settings that are applied to PBXProject build settings.
+# Settings are merged in the following order: groups, base, configs.
+settings:
+  groups:
+  base:
+    CLANG_CXX_LANGUAGE_STANDARD: "gnu++17"
+  configs:
+    release:
+      VALIDATE_PRODUCT: "YES"
+
+targets:
+  OpenWallet:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: OpenWallet
+    configFiles:
+      Debug: config/debug.xcconfig
+      Release: config/release.xcconfig
+    attributes:
+      CreatedOnToolsVersion: "13.4"
+    settings: # Settings that are applied to PBXNativeTarget build settings
+      base:
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1.0.0.13
+        PRODUCT_NAME: "$(TARGET_NAME)"
+        PRODUCT_BUNDLE_IDENTIFIER: "$(OW_APP_BUNDLE_ID)"
+        CODE_SIGN_STYLE: "Automatic"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        DEVELOPMENT_ASSET_PATHS: "\"OpenWallet/Preview Content\""
+        ENABLE_PREVIEWS: "YES"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_BITCODE: NO
+    dependencies:
+      - framework: Frameworks/Alamofire.xcframework
+      - framework: Frameworks/Kingfisher.xcframework
+      - framework: Frameworks/ZipArchive.xcframework
+    postCompileScripts:
+      - path: scripts/swiftlint.sh
+        name: "Swift Lint"
+  OpenWalletTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: OpenWalletTests
+    settings:
+      base:
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/OpenWallet.app/OpenWallet
+    dependencies:
+      - target: OpenWallet

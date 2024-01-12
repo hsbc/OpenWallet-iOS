@@ -1,0 +1,31 @@
+[
+    {
+          "id": 1,
+          "type": "SINGLE",
+          "category": "ESG",
+          "question": "What is blockchain? (Select 1 option)",
+          "choices": ["A/type of cryptocurrency","B/An exchange","C/Centralized ledger"],
+          "serialNumber": 0,
+          "resourceLinks": ""
+    },
+    {
+          "id": 2,
+          "type": "SINGLE",
+          "category": "ESG",
+          "question": "When a transaction is recorded on a blockchain, who can view the record? (Select 1 option)",
+          "choices": ["A/Transaction is only available to the sender ","B/Transaction is only available to the receiver  ","C/Transaction is not available to anyone ","D/Transaction is publicly available to anyone  ","E/Transaction is only available between the involved parties "],
+          "serialNumber": 0,
+          "resourceLinks": ""
+    },
+    {
+          "id": 3,
+          "type": "SINGLE",
+          "category": "ESG",
+          "question": "Once records are submitted on a blockchain, can they be altered? (Select 1 option)",
+          "choices": ["A/No – they cannot be altered ","B/Yes – the parties can go back in and alter them at any time ","C/Yes – but only within a certain time frame "],
+          "serialNumber": 0,
+          "resourceLinks": ""
+    }
+
+
+]
